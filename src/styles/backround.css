@@ -1,0 +1,6 @@
+body {
+  background:linear-gradient(180deg,#000 0%,rgba(0,0,0,0) 100%),url('G:/HOCTAP/HK1_2023_2024/webbanquanao/Maltimart-ecommerce-start-up/src/assets/images/3b3083664a.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* Additional properties to adjust the background positioning, if needed */
+}

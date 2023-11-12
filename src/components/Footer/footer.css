@@ -1,0 +1,49 @@
+.footer{
+  padding-top: 65px;
+  padding-bottom: -30px;
+  background: var(--primary-color);
+  transform: translateY(30px);
+}
+
+
+
+.footer_text{
+  line-height: 30px;
+  color:aliceblue;
+}
+.footer_quick-links ul li{
+  background: transparent !important;
+}
+.footer_quick-links ul li a{
+  color: aliceblue;
+}
+.quick_links-title{
+  margin-bottom: 30px;
+  color: #fff;
+  font-size: 1.1rem;
+}
+
+.footer_contact li,span,
+.footer_contact li p{
+  color: #fff;
+}
+
+.footer_contact li span{
+  font-size: 1.2rem;
+}
+
+
+.footer_contact li p{
+  font-size: 0,9rem;
+}
+
+.footer_copyright{
+  color:#fff;
+  font-size: 0.9rem;
+  margin-top: 50px;
+  text-align: center;
+  transform: translateY(-10px);
+}
+.Multmart{
+  color: #fff;
+}

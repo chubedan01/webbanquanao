@@ -1,0 +1,37 @@
+.revenue_box,
+.oder_box,
+.Products_box,
+.users_box {
+  padding: 20px;
+  border-radius: 5px;
+}
+.revenue_box{
+  background: var(--card-bg-01);
+}
+.Products_box{
+  background: var(--card-bg-02);
+
+}
+.oder_box{
+  background: var(--card-bg-03);
+
+}
+.users_box{
+  background: var(--card-bg-04);
+}
+.revenue_box span,
+.oder_box span,
+.Products_box span,
+.users_box span{
+ color: black;
+}
+
+.revenue_box h5,
+.oder_box h5,
+.Products_box h5,
+.users_box h5{
+ font-size: 1.1rem;
+ font-weight: 500;
+ color: var(--primary-color);
+ margin-bottom: 20px;
+}

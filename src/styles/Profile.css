@@ -1,0 +1,55 @@
+
+
+
+.auth_form{
+  background: var(--primary-color);
+  padding: 40px;
+  border-radius: 5px;
+}
+.auth_form{
+  transform: translateY(-10px);
+}
+
+.auth_btn{
+  background: #fff;
+  color: var(--primary-color);
+  font-weight: 600;
+}
+.auth_form p{
+  margin-top: 20px;
+}
+.auth_form p a{
+  color: #fff;
+}
+.auth_form input[type='file'] {
+  color: #fff;
+  cursor: pointer;
+
+}
+.Login{
+  transform: translateY(-10px);
+}
+.Signup{
+  transform: translateY(-10px);
+}
+.information h3{
+  text-align: center;
+}
+
+.information .auth_form .form_group img{
+  width: 30%;
+  cursor: pointer;
+  border-radius: 50%;
+  display: flex;
+  transform: translateX(194px);
+  /* align-items: center !important;
+  justify-content: center !important; */
+}
+.text{
+  font-size: 1.25rem;
+}
+.edit_btn{
+  transform: translateX(194px);
+  background-color: crimson;
+  color: #fff;
+}

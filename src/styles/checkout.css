@@ -1,0 +1,44 @@
+/*là một giá trị thuộc tính trong CSS dùng để xác định cách thức căn chỉnh các phần từ bên trong một container theo chiều ngang*/
+
+
+.Billing h6{
+  font-size: 1.5rem;
+} 
+.form_group input{
+  border: 1px soild;
+  color: rgb(12, 12, 12);
+  border-radius: 5px;
+}
+.checkout_cart{
+  padding:20px;
+  background: var(--primary-color);
+  color: #fff;
+  border-radius: 5px;
+  transform: translateY(40px);
+
+}
+.checkout_cart h6,
+h4 {
+  display:flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.checkout_cart h6{
+  margin-bottom: 20px;
+}
+.checkout_cart h4{
+  border-top: 1px solid rgba(221,221,221,0.253);
+  padding-top: 20px;
+}
+.buy_btn{
+ color: #fff;
+}
+.edit_btn{
+  transform: translateY(-100px);
+  background: var(--primary-color);
+  color: #fff;
+}
+
+.checkout{
+  transform: translateY(-10px);
+}

@@ -1,0 +1,89 @@
+.product_details{
+  margin-top: 30px;
+}
+.product_details h2{
+  font-size: 1.6rem;
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+.product_rating span i{
+  color: coral;
+}
+.product_rating p span {
+  color:coral;
+  font-weight: 500;
+}
+.product_price{
+  font-size: 2rem;
+  font-weight: 500;
+  color: black;
+}
+.tap_wrapper h6{
+color: var(--primary-color);
+font-weight: 500;
+font-size: 1rem;
+}
+.active_tab{
+  font-weight: 600;
+}
+.tab_content p{
+  line-height: 30px;
+}
+.review_wrapper ul li span{
+  color: coral;
+  font-weight: 600;
+}
+.review_wrapper ul li p{
+margin-top: 10px;
+}
+
+.review_form{
+  width: 100%;
+  margin: auto;
+  margin-top: 50px;
+}
+.review_form h4{
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+
+.form_group input,
+.form_group textarea{
+  width: 100%;
+  border: 1px solid var(--primary-color);
+  border-radius: 5px;
+  padding: 8px 20px;
+}
+.form_group input:focus, 
+.form_group textarea:focus{
+  outline: none;
+}
+.review_group{
+  margin-bottom: 30px;
+}
+
+.form_group span{
+  display: flex;
+  align-items: center;
+  column-gap: 5px;
+  color: coral;
+  font-weight: 600;
+  cursor: pointer;
+
+}
+.related_title{
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-top: 30px;
+}
+.thontinsanpham{
+  transform: translateY(10px);
+}
+/* dieu chinh kich thuoc khi o man hinh nho*/ 
+@media only screen and (max-width: 786px){
+  .rating_group {
+   column-gap: 0.5rem;
+  }
+ 
+}
